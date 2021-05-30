@@ -3,4 +3,4 @@ A web based application for  gathering weather Information using OpenWeatherMap 
 
 API link:https://openweathermap.org/api
 
-Used VanillaJS for developing the project
+Used VanillaJS for developing the Application
