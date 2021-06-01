@@ -15,7 +15,7 @@ function setQuery(evt)
 }
 
 function getResults(query){
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${api.key}`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${api.key}`)
     .then(weather=>{
         return weather.json();
     })
