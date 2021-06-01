@@ -9,6 +9,7 @@ function setQuery(evt)
 {
     if(evt.keyCode==13)
     {
+        console.log("SONU");
         getResults(searchbox.value);
     }
 }
@@ -39,6 +40,8 @@ function displayResults(weather)
   
     let hilow = document.querySelector('.hi-low');
     hilow.innerText = `${Math.round(weather.main.temp_min)-273}°c / ${Math.round(weather.main.temp_max)-273}°c`;
+
+
 }
 
 function dateBuilder (d) {
